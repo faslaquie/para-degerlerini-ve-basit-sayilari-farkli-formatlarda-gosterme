@@ -1,0 +1,18 @@
+ Memo1.Lines.Clear;
+ Memo1.Lines.Add(Format('ondalık sayı (fixed) --> %f',[123000.456]));
+ Memo1.Lines.Add(Format('ondalık sayı (fixed) --> %.1f',[123000.456]));
+ Memo1.Lines.Add(Format('ondalık sayı (fixed) --> %.5f',[123000.456]));
+ Memo1.Lines.Add('-----------------------------------------------');
+ Memo1.Lines.Add(Format('bilimsel gösterim --> %e',[123000.456]));
+ Memo1.Lines.Add(Format('bilimsel gösterim --> %.2e',[123000.456]));
+ Memo1.Lines.Add(Format('bilimsel gösterim --> %.4e',[123000.456]));
+ Memo1.Lines.Add(Format('bilimsel gösterim --> %.7e',[123000.456]));
+ Memo1.Lines.Add(Format('bilimsel gösterim --> %.10e',[123000.456]));
+ Memo1.Lines.Add('--------------------------------------------------');
+ Memo1.Lines.Add(Format('ondalık sayı (general) --> %g',[123000.456000]));
+ Memo1.Lines.Add(Format('ondalık sayı (general) --> %.4g',[123000.456000]));
+ Memo1.Lines.Add(Format('ondalık sayı (general) --> %.6g',[123000.456000]));
+ Memo1.Lines.Add(Format('ondalık sayı (general) --> %.15g',[123000.456000]));
+ Memo1.Lines.Add('---------------------------------------------------------');
+ Memo1.Lines.Add(Format('para degeri --> %m' , [123000.456]));
+ Memo1.Lines.Add(Format('sayı --> %n' , [123000.456]));
